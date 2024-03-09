@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(194, 194, 194);
+}
 .lista{
     display: flex;
     flex-direction: column;
