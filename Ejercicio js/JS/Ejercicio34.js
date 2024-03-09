@@ -12,7 +12,7 @@ altura = Number(prompt("Ingrese el altura del deposito"));
 caudal = Number(prompt("Ingrese el caudal del deposito"));
 
 volumen = Math.PI * (Math.pow(radio, 2)) * altura;
-tiempo = volumen / caudal;
+tiempo = (volumen / caudal)/60;
 
-alert(`el tiempo que toma llenar el deposito es de ${Math.ceil(tiempo)}/s`);
+alert(`el tiempo que toma llenar el deposito es de ${Math.ceil(tiempo)}M`);
 
